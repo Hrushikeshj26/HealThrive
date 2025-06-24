@@ -1,0 +1,25 @@
+import React from 'react'
+import heroimg from '../assets/doctorimg.png'
+
+function Hero() {
+  return (
+    <div className='flex justify-between items-center max-w-2/2 m-auto w-full'>
+        <div className='flex flex-col justify-center items-start'>
+            <h1 className='text-6xl font-bold'>We Will Help <br /> You To Improve <br /> Your Mental Health</h1>
+            <p className='text-xl text-gray-700 mt-4'>Your health, our priority. Experience the best in healthcare. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div className='flex mt-8'>
+                <button className='bg-[#2DCF57] text-white px-6 py-3 rounded text-xl font-semibold mr-4'>Get Appointment</button>
+                <button className='px-6 py-3 rounded text-xl font-semibold border-black border-2 hover:bg-[#2DCF57]'>Find Specialist</button> 
+            </div>
+        </div>
+        <div className='bg-[#2DCF57] w-[600px] h-[600px] rounded-full overflow-hidden'>
+            <img 
+            className='w-full h-full object-cove'
+            src={heroimg} 
+            alt="doctor-img" />
+        </div>
+    </div>
+  )
+}
+
+export default Hero
