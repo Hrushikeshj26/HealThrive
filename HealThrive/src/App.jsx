@@ -26,7 +26,7 @@ function App() {
   }, []);
   
   return (
-      <div className="mx-auto">
+      <div className="flex flex-col w-full overflow-hidden">
         <div className='bg-[#EAFFF0] min-h-[100vh] md:px-28 flex flex-col justify-center items-center'>
           <Header />
           <Hero />
