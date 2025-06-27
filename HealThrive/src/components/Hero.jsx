@@ -6,7 +6,13 @@ function Hero() {
     <div className='flex justify-between items-center m-auto w-full' id='home' data-aos="flip-up" data-aos-delay="500" 
   data-aos-duration="800">
         <div className='flex flex-col justify-center items-center md:items-start'>
-            <h1 className='text-4xl md:text-6xl font-bold'>We Will Help <br /> You To Improve <br /> Your Mental Health</h1>
+          <div className='bg-[#2DCF57] w-[20rem] h-[20rem] rounded-full overflow-hidden md:hidden block'>
+            <img 
+            className='absulute w-full h-full object-cover'
+            src={heroimg} 
+            alt="doctor-img" />
+         </div>
+            <h1 className='text-5xl p-5 md:p-0 md:text-6xl font-bold'>We Will Help <br /> You To Improve <br /> Your Mental Health</h1>
             <p className='p-4 md:p-0 md:text-xl text-gray-700 mt-4'>Your health, our priority. Experience the best in healthcare. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className='flex mt-8'>
                 <button className='bg-[#2DCF57] text-white md:px-6 md:py-3 px-4 py-4 rounded md:text-xl font-semibold mr-4 cursor-pointer hover:bg-[#4e9e64]'>Get Appointment</button>
@@ -15,7 +21,7 @@ function Hero() {
         </div>
         <div className='bg-[#2DCF57] w-[600px] h-[600px] rounded-full overflow-hidden hidden md:block'>
             <img 
-            className='w-full h-full object-cove'
+            className='w-full h-full object-cover'
             src={heroimg} 
             alt="doctor-img" />
         </div>

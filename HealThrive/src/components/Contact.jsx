@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div className="flex flex-col items-center justify-center h-[50rem] md:min-h-screen md:p-8 p-2 w-full" id="contact" data-aos="zoom-in" data-aos-delay="500" 
+    <div className="flex flex-col items-center justify-center h-[55rem] md:min-h-screen md:p-8 p-2 w-full" id="contact" data-aos="zoom-in" data-aos-delay="500" 
   data-aos-duration="800">
         <div className="bg-black rounded-3xl p-8 md:p-18 w-full md:max-w-6xl flex md:flex-row flex-col gap-16 text-white shadow-xl/85 shadow-gray-900">
             <div className="w-full mb-8">

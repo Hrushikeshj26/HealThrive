@@ -14,7 +14,7 @@ function Dashbox() {
         </div>
         <div className="bg-[#2DCF57] shadow-xl/75 rounded-xl md:rounded-4xl m-4 p-4 w-34 md:p-12 md:w-[20rem] text-center text-white cursor-pointer hover:scale-105 transition-transform duration-300">
             <h2 className='font-bold text-xl md:text-6xl pb-4'>1M+</h2>
-            <p>Active Patients</p>
+            <p>Patients</p>
         </div>
         <div className="bg-black shadow-xl/75 rounded-xl md:rounded-4xl m-4 p-4 w-34 md:p-12 md:w-[20rem] text-center text-white cursor-pointer hover:scale-105 transition-transform duration-300">
             <h2 className='font-bold text-xl md:text-6xl pb-4'>5M+</h2>
