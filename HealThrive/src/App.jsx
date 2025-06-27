@@ -26,8 +26,8 @@ function App() {
   }, []);
   
   return (
-      <div className="w-full min-h-screen flex flex-col ">
-        <div className='bg-[#EAFFF0] min-h-[100dvh] px-4 md:px-28 flex flex-col justify-center items-center'>
+      <div className="mx-auto">
+        <div className='bg-[#EAFFF0] min-h-[100vh] md:px-28 flex flex-col justify-center items-center'>
           <Header />
           <Hero />
         </div>

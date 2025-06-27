@@ -18,7 +18,7 @@ function Testimonials() {
   }, []);
 
   return (
-    <div className="h-[30rem] md:min-h-[70vh] w-full flex flex-col items-center justify-center" data-aos="flip-up" data-aos-delay="600" 
+    <div className="h-[30rem] md:min-h-[70vh] w-full flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="600" 
   data-aos-duration="800">
       <h1 className="text-3xl md:text-5xl font-bold mb-6 text-center">What Our Patients Say</h1>
       <p className="text-lg text-gray-600 mb-10 text-center max-w-2xl">
