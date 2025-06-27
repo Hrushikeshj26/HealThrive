@@ -3,10 +3,10 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-[#EAFFF0] text-white py-8 flex flex-col items-center w-full">
-     <div className="flex flex-row items-start w-full max-w-6xl">
+    <footer className="bg-[#EAFFF0] text-white py-8 px-8 md:px-0 flex flex-col items-center w-full h-full">
+     <div className="flex flex-col md:flex-row items-start w-full max-w-6xl">
         <div className="flex flex-col items-start w-full">
-            <h2 className="text-2xl font-bold mb-4 text-[#2DCF57]">HealThrive</h2>
+            <h2 className="text-2xl font-bold mb-4 text-[#2DCF57]"><a href="home">HealThrive</a></h2>
             <p className="text-gray-600 w-full md:w-3/4">
                 Your health is our priority. We are committed to providing the best healthcare services to help you thrive. Our team of dedicated professionals is here to support you on your journey to better health.
             </p>
@@ -53,9 +53,12 @@ function Footer() {
             </p>
         </div>
      </div>
-     <hr className="w-6xl border-gray-900 mt-16" />
+     <hr className="w-86 md:w-6xl border-gray-900 mt-16" />
      <p className="text-center text-gray-600 mt-4">
        &copy; {new Date().getFullYear()} HealThrive. All rights reserved.
+     </p>
+     <p className="text-center text-gray-600 mt-2">
+         Made with ❤️ by <a href="https://www.instagram.com/hrishi.026" className="text-[#2DCF57] hover:text-blue-500 transition-colors duration-200 font-bold" target="_blank" rel="noopener noreferrer">Hrushikesh</a>
      </p>
     </footer>
   )
