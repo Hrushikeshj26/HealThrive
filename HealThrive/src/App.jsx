@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Doctors from './components/Doctors'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './index.css';
 
 import { useEffect } from 'react';
 
