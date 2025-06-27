@@ -2,7 +2,8 @@ import React from 'react'
 
 function Dashbox() {
   return (
-    <div className="flex flex-wrap items-center justify-center py-12 md:py-25 w-full bg-white">
+    <div className="flex flex-wrap items-center justify-center py-12 md:py-25 w-full bg-white " data-aos="fade-up" data-aos-delay="400" 
+  data-aos-duration="800">
         <div className="bg-[#2DCF57] shadow-xl/75 rounded-xl md:rounded-4xl m-4 p-6 w-40 md:p-12 md:w-[20rem] text-center text-white cursor-pointer hover:scale-105 transition-transform duration-300">
             <h2 className='font-bold text-xl md:text-6xl pb-4'>24/7</h2>
             <p>Online Support</p>

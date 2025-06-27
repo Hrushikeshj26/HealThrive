@@ -9,8 +9,21 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Doctors from './components/Doctors'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+import { useEffect } from 'react';
+
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,  // animation duration in ms
+      once: true       // animate only once
+    });
+  }, []);
+  
   return (
       <div className="w-full min-h-screen flex flex-col ">
         <div className='bg-[#EAFFF0] min-h-[100dvh] px-4 md:px-28 flex flex-col justify-center items-center'>

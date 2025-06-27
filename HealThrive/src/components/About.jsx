@@ -4,7 +4,8 @@ import aboutImg from '../assets/Rectangle 15.jpg'
 
 function About() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8" id="about">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8" id="about" data-aos="fade-left" data-aos-delay="500" 
+  data-aos-duration="800">
       <h1 className="text-3xl md:text-5xl font-bold mb-6 text-center">Why Should you take our services</h1>
       <p className="text-lg text-gray-600 mb-10 text-center max-w-2xl">
         HealThrive is dedicated to providing exceptional healthcare services. Our team of experienced professionals is committed to your well-being, offering personalized care and support.

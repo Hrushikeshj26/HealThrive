@@ -1,9 +1,10 @@
 import React from 'react'
-import heroimg from '../assets/doctorimg.png'
+import heroimg from '../assets/doctor7.png'
 
 function Hero() {
-  return (
-    <div className='flex justify-between items-center m-auto w-full' id='home'>
+  return ( 
+    <div className='flex justify-between items-center m-auto w-full' id='home' data-aos="flip-up" data-aos-delay="500" 
+  data-aos-duration="800">
         <div className='flex flex-col justify-center items-center md:items-start'>
             <h1 className='text-6xl font-bold'>We Will Help <br /> You To Improve <br /> Your Mental Health</h1>
             <p className='text-xl text-gray-700 mt-4'>Your health, our priority. Experience the best in healthcare. <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

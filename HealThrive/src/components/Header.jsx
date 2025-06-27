@@ -8,7 +8,7 @@ function Header() {
   const [showRegisterForm, setShowRegisterForm] = useState(false);
 
   return (
-    <div className="w-full px-6 py-8 relative">
+    <div className="w-full px-6 py-8 relative" >
       <div className="flex justify-between items-center">
         <h1 className='text-2xl md:text-4xl font-bold text-[#2DCF57] cursor-pointer'>HealThrive</h1>
         
@@ -37,7 +37,9 @@ function Header() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden mt-6 space-y-4">
+        <div className={`md:hidden mt-6 space-y-4 transition-all duration-500 transform ${
+    menuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
+  }`}>
           <ul className="flex flex-col gap-2 font-semibold text-lg items-center">
             <a href="#home"><li className='hover:text-[#2DCF57]'>Home</li></a>
             <a href="#about"><li className='hover:text-[#2DCF57]'>About</li></a>

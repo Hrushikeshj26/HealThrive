@@ -2,7 +2,8 @@ import React from 'react'
 
 function Getappo() {
   return (
-    <div className='w-6xl h-full flex flex-col justify-center items-center text-white text-center shadow-xl/85 rounded-[3rem] bg-gradient-to-r from-[#2dce58] to-[#12702e] '>
+    <div className='w-6xl h-full flex flex-col justify-center items-center text-white text-center shadow-xl/85 rounded-[3rem] bg-gradient-to-r from-[#2dce58] to-[#12702e] ' data-aos="zoom-in" data-aos-delay="500" 
+  data-aos-duration="800">
         <p className='text-xl'>Need a doctor’s counsealing?</p>
         <h1 className='text-[4rem] font-bold'>Just make an appointment <br />
         and motivated</h1>
