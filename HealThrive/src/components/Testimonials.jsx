@@ -25,7 +25,7 @@ function Testimonials() {
         At HealThrive, we value our patients' feedback. Here are some testimonials from those who have experienced our care.
       </p>
     <div className="relative w-full max-w-6xl mx-auto flex flex-col items-center justify-center">
-      <div className="w-96 md:w-full max-w-4xl flex items-center justify-center">
+      <div className="w-78 md:w-full max-w-4xl flex items-center justify-center">
         {/* Swiper */}
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}

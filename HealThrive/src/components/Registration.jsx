@@ -5,7 +5,7 @@ function RegisterForm({onClose}) {
   const [isLogin, setIsLogin] = useState(true);
 
   return (
-    <div className="md:min-h-screen h-screen w-full bg-[#EAFFF0] p-6 flex items-center justify-center ">
+    <div className="md:min-h-screen h-screen w-full bg-[#EAFFF0] md:p-6 flex items-center justify-center ">
       <div className="bg-white p-28 rounded-2xl shadow-2xl w-full md:max-w-md flex flex-col items-center relative">
         <h2 className="text-3xl font-bold text-center text-[#2DCF57] mb-6">
           {isLogin ? 'Login' : 'Sign Up'}
