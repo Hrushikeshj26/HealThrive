@@ -24,7 +24,7 @@ Check out the live project here:
 Follow these steps to run the project locally on your machine:
 
 1. Clone the Repository 
-    git clone https://github.com/your-username/heal-thrive.git
+    git clone [https://github.com/your-username/heal-thrive.git](https://github.com/Hrushikeshj26/HealThrive.git)
    
     cd heal-thrive
    
