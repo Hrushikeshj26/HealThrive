@@ -35,7 +35,8 @@ Follow these steps to run the project locally on your machine:
    npm install
    
 4. Start the Development Server
-  npm run dev
+
+   npm run dev
 
   This will start the app at:
   
