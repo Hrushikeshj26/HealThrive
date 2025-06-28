@@ -23,17 +23,18 @@ Check out the live project here:
 
 Follow these steps to run the project locally on your machine:
 
-1. Clone the Repository 
-    git clone [https://github.com/your-username/heal-thrive.git](https://github.com/Hrushikeshj26/HealThrive.git)
+1. Clone the Repository
+
+   git clone [https://github.com/your-username/heal-thrive.git](https://github.com/Hrushikeshj26/HealThrive.git)
    
     cd heal-thrive
    
-2. Install Dependencies
+3. Install Dependencies
    Make sure you have Node.js and npm installed. Then run:
    
    npm install
    
-3. Start the Development Server
+4. Start the Development Server
   npm run dev
 
   This will start the app at:
